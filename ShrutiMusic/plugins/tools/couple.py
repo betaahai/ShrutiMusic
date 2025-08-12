@@ -5,7 +5,7 @@ import random
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import ChatType
-from ShrutiMusic import upload_file
+from pyrogram import upload_file
 from PIL import Image, ImageDraw
 import requests
 
